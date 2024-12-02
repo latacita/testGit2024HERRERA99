@@ -23,3 +23,6 @@
         git commit
 (19)    git chekout master
 (20)    git stash apply
+(26)    git tag "PasosExtras"
+(27)    git checkout master
+(28)    git cherry-pick 2b94db7ce729a6db367d2d5287aa313b1b2a206a
