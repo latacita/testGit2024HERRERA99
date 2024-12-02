@@ -1,8 +1,10 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre): Sánchez Barreiro, Pablo              %%
+%% Alumno (Apellidos, Nombre): Angulo Salas, Aitor                  %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(1)     git clone
+(2)     Edito el fichero bitacora
