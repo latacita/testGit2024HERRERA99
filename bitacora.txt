@@ -13,8 +13,21 @@
         git commit -m "Paso 03"
 (4)     git branch PrimeraRama;
         git checkout PrimeraRama
+(5)     Edito el fichero bitacora;
+        git add bitacora.txt;
+        git commit -m "Paso 05"
+(6)     git branch SegundaRama;
+        git checkout SegundaRama
 (10)    Edito el fichero bitacora;
         git add bitacora.txt;
         git commit -m "Paso 10"
 (11)    git stash;
         git checjout PrimeraRama
+(12)    Edito el fichero bitacora;
+        git add bitacora.txt;
+        git commit -m "Paso 12"
+(13)    git checkout SegundaRama
+(14)    Como las dos ramas han creado commits nuevos despues de su
+        separación, la fusión se realizaria de manera recursiva.
+(15)    Como las dos ramas han creado commits nuevos despues de su
+        separación, la fusión se realizaria de manera recursiva.
