@@ -8,3 +8,8 @@
 ====== ============================ ================================
 (1)     git clone
 (2)     Edito el fichero bitacora
+(3)     Edito el fichero bitacora;
+        git add bitacora.txt;
+        git commit -m "Paso 03"
+(4)     git branch PrimeraRama;
+        git checkout PrimeraRama
