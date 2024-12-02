@@ -1,0 +1,20 @@
+%%==================================================================%%
+%%                 Métodos de Desarrollo - Test de Git              %%
+%%==================================================================%%
+%% Alumno (Apellidos, Nombre): Angulo Salas, Aitor                  %%
+%%==================================================================%%
+
+ Paso   Acción                       Notas
+====== ============================ ================================
+(22)    git push origin master;         Da error ya que tengemos cosas distintas en el repositorio
+                                        remoto y en el repositorio local. Por lo cual tengo que hacer un pull.
+                                        Al hacer el pull da error ya que las ramas han divergido, por lo cual
+                                        hago git config pull.rebase true para rebasar, entonces vuelvo a hacer
+                                        pull y resuelvo los conflictos, una vez resueltos hago el push.
+        git pull;
+        git config pull.rebase true;
+        git pull;
+        git push origin master;
+(23)    git checkout SegundaRama
+(24)    Creo el archivo pasosExtra.txt y
+        lo edito
